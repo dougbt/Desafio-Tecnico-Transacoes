@@ -28,7 +28,7 @@ spring:
             non_contextual_creation: true
 
   liquibase:
-    change-log: classpath:/db/changelog/db.changelog-master.yaml
+    change-log: classpath:/db/changelog/db.changelog.yaml
     enabled: true
     user: sa
     password:

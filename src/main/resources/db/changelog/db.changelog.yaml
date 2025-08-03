@@ -1,5 +1,5 @@
 databaseChangeLog:
   - include:
-      file: classpath:/db/changelog/V1__create_tables.yaml
+      file: classpath:/db/changelog/1_create_tables.yaml
   - include:
-      file: classpath:/db/changelog/V2__initial_data.yaml
+      file: classpath:/db/changelog/2_initial_data.yaml

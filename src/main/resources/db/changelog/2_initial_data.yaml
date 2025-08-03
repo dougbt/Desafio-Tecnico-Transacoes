@@ -21,3 +21,75 @@ databaseChangeLog:
               - column:
                   name: saldo
                   value: 500.00
+        - insert:
+            tableName: conta
+            columns:
+              - column:
+                  name: numero_conta
+                  value: 789
+              - column:
+                  name: saldo
+                  value: 2500.75
+        - insert:
+            tableName: conta
+            columns:
+              - column:
+                  name: numero_conta
+                  value: 101
+              - column:
+                  name: saldo
+                  value: 150.50
+        - insert:
+            tableName: conta
+            columns:
+              - column:
+                  name: numero_conta
+                  value: 102
+              - column:
+                  name: saldo
+                  value: 3750.25
+        - insert:
+            tableName: conta
+            columns:
+              - column:
+                  name: numero_conta
+                  value: 103
+              - column:
+                  name: saldo
+                  value: 850.00
+        - insert:
+            tableName: conta
+            columns:
+              - column:
+                  name: numero_conta
+                  value: 999
+              - column:
+                  name: saldo
+                  value: 10000.00
+        - insert:
+            tableName: conta
+            columns:
+              - column:
+                  name: numero_conta
+                  value: 555
+              - column:
+                  name: saldo
+                  value: 75.30
+        - insert:
+            tableName: conta
+            columns:
+              - column:
+                  name: numero_conta
+                  value: 777
+              - column:
+                  name: saldo
+                  value: 1500.90
+        - insert:
+            tableName: conta
+            columns:
+              - column:
+                  name: numero_conta
+                  value: 888
+              - column:
+                  name: saldo
+                  value: 5000.00
