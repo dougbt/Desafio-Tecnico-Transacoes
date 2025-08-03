@@ -27,7 +27,7 @@ public class ContaServiceImpl implements ContaService {
         }
 
         if (contaRepository.existsByNumeroConta(request.numeroConta())) {
-            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Conta já existente");
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Conta já existente"); //404 COMO DIZ NO DESAFIO
         }
 
         Conta novaConta = new Conta(request.numeroConta(), request.saldo());

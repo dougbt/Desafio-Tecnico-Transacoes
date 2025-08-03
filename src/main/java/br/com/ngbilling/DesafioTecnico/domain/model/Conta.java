@@ -17,9 +17,20 @@ public class Conta {
     @Column(precision = 19, scale = 2)
     private BigDecimal saldo;
 
+    public Conta() {
+    }
+
     public Conta(Integer numeroConta, BigDecimal saldo) {
         this.numeroConta = numeroConta;
         this.saldo = saldo;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public Integer getNumeroConta() {
