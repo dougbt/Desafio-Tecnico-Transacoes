@@ -5,7 +5,7 @@ spring:
   datasource:
     url: jdbc:h2:mem:ngbillingdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
     driver-class-name: org.h2.Driver
-    username: sa
+    username: root
     password:
 
   h2:
@@ -30,5 +30,5 @@ spring:
   liquibase:
     change-log: classpath:/db/changelog/db.changelog.yaml
     enabled: true
-    user: sa
+    user: root
     password:
