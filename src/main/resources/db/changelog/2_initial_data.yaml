@@ -1,0 +1,23 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: douglasbt.dev@gmail.com
+      changes:
+        - insert:
+            tableName: conta
+            columns:
+              - column:
+                  name: numero_conta
+                  value: 123
+              - column:
+                  name: saldo
+                  value: 1000.00
+        - insert:
+            tableName: conta
+            columns:
+              - column:
+                  name: numero_conta
+                  value: 456
+              - column:
+                  name: saldo
+                  value: 500.00
